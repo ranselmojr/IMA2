@@ -22,7 +22,7 @@ namespace Prototype
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            picLogo.Image = (Bitmap)Image.FromFile(fileName, true);
+            //picLogo.Image = (Bitmap)Image.FromFile(fileName, true);
         }
 
         private void lnkForgot_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

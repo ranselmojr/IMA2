@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.lblUniversity = new System.Windows.Forms.Label();
             this.lblUserid = new System.Windows.Forms.Label();
@@ -46,7 +45,7 @@
             // 
             // picLogo
             // 
-            this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
+            this.picLogo.Image = global::Prototype.Properties.Resources.thinker;
             this.picLogo.Location = new System.Drawing.Point(180, 29);
             this.picLogo.Margin = new System.Windows.Forms.Padding(6);
             this.picLogo.Name = "picLogo";
